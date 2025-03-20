@@ -119,3 +119,15 @@ To run the scheduler and web server again:
 airflow scheduler &
 airflow webserver --port 8080 &
 ```
+
+### 6. DAGs specific commands
+
+To list all available DAGs
+```bash
+airflow dags list
+```
+
+To manually trigger a DAG from cmd:
+```bash
+airflow dags trigger <dag_name>
+```
