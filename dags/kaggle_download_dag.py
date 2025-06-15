@@ -7,6 +7,11 @@ load_dotenv()
 project_path = os.getenv("PROJECT_PATH")
 download_path = os.getenv("DOWNLOAD_PATH")
 
+# Constants for dataset details and paths
+# DATASET_ORIGIN = 'sobhanmoosavi'
+# DATASET_NAME = 'us-accidents'
+# DOWNLOAD_PATH = 'data'
+
 if project_path:
     sys.path.append(project_path)
 else:
